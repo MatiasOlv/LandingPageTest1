@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cinza claro */
+}
+
+.header__logo__imagem{
+    height: 100px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: #333;
+}
+
+.servico__imagem{
+    height: 15px;
+    width: 15px;
+    }
+
+.servico__paragrafo{
+    display: inline-block;
+}
+
+.rodapé__contato{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.rodapé__contato__whatsapp{
+    text-decoration: none;
+    color: black;
+}
+
+.rodapé__contato__maps{
+    display: flex;
+    justify-content: left;
+}
+
+.rodapé__contato__maps__link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.rodapé__contato__maps__icon{
+    width: 20px;
+}
+
+.servico-grande{
+    margin-top: 3%;
+    width: 40px;
+}
+
+.servico-grande1 , .servico-grande{
+    display: inline-block;
+}
+
+header {
+    background-color: #202328; /* Preto */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
